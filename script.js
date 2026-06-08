@@ -401,3 +401,29 @@
     );
   }
 })();
+
+let currentLang = "en";
+
+function applyLanguage() {
+  document.querySelectorAll("[data-en]").forEach(el => {
+    el.textContent = el.getAttribute("data-" + currentLang);
+  });
+
+  document.documentElement.lang = currentLang;
+  document.documentElement.dir = currentLang === "fa" ? "rtl" : "ltr";
+
+  const btn = document.getElementById("langBtn");
+  if (btn) {
+    btn.textContent = currentLang === "en" ? "فارسی" : "English";
+  }
+}
+
+function toggleLanguage() {
+  currentLang = currentLang === "en" ? "fa" : "en";
+  applyLanguage();
+}
+
+window.addEventListener("DOMContentLoaded", () => {
+  currentLang = "en";
+  applyLanguage();
+});
