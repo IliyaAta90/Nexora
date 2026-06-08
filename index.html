@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nexora</title>
+  <title data-en="NEXORA — Digital Web Engineering" data-fa="نکسورا - مهندسی وب دیجیتال">NEXORA — Digital Web Engineering</title>
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
@@ -14,14 +14,17 @@
   <div class="cursor-ring" id="cursor-ring"></div>
 
   <nav>
-    <div class="nav-logo">NEXORA</div>
+    <div class="nav-logo" >NEXORA</div>
     <ul class="nav-links">
-      <li><a href="#features">Services</a></li>
-      <li><a href="#process">Skills</a></li>
-      <li><a href="#logo-draw">About</a></li>
-      <li><a href="#">Docs</a></li>
+      <li><a href="#features" data-en="Services" data-fa="سرویس‌ها">Services</a></li>
+      <li><a href="#process" data-en="Skills" data-fa="مهارت‌ها">Skills</a></li>
+      <li><a href="#logo-draw" data-en="About" data-fa="درباره">About</a></li>
+      <li><a href="#" data-en="Docs" data-fa="مستندات">Docs</a></li>
     </ul>
-    <button class="nav-cta" onclick="window.location.href='tel:+989117362732'">Start Project</button>
+        <button class="nav-cta" id="langBtn" onclick="toggleLanguage()">
+      فارسی
+    </button>
+    <button class="nav-cta"  data-en="Start Project" data-fa="شروع پروژه">Start Project</button>
   </nav>
 
   <!-- HERO -->
@@ -32,21 +35,23 @@
     <div class="hero-orb hero-orb-2"></div>
     <div class="hero-orb hero-orb-3"></div>
 
-    <div class="hero-tag">// Next-generation digital systems</div>
+    <div class="hero-tag"  data-en="// Next-generation digital systems"
+      data-fa="// سیستم‌های دیجیتال نسل جدید">// Next-generation digital systems</div>
 
     <h1 class="hero-headline">
-      <span class="line"><span class="word">Next</span> <span class="word accent">Level</span></span>
-      <span class="line"><span class="word">Web</span>
-      <span class="line"><span class="word accent">Engineering</span></span>
+      <span class="line"><span class="word" data-en="Next Level" data-fa="سطح بعدی">Next</span>
+      <span class="line"><span class="word" data-en="Web" data-fa="مهندسی" >Web</span>
+      <span class="line"><span class="word accent" data-en="Engineering" data-fa="وب">Engineering</span></span>
     </h1>
 
-    <p class="hero-sub">
+    <p class="hero-sub" data-en="NEXORA is a digital studio founded by Iliya Atabaki. We build fast, modern, and scalable web experiences with a focus on performance, clarity, and precision."
+      data-fa="نکسورا یک استودیو دیجیتال است که توسط ایلیا اتابکی ساخته شده. ما وب‌سایت‌های سریع، مدرن و مقیاس‌پذیر طراحی می‌کنیم.">
       NEXORA is a digital studio founded by Iliya Atabaki. We build fast, modern, and scalable web experiences with a focus on performance, clarity, and precision.
     </p>
 
     <div class="hero-cta-group">
-      <button class="btn-primary" onclick="window.location.href='tel:+989117362732'">Start Now</button>
-      <button class="btn-ghost">View Work →</button>
+      <button class="btn-primary" data-en="Start Now" data-fa="شروع کن">Start Now</button>
+      <button class="btn-ghost" data-en="View Work" data-fa="نمونه کار">View Work →</button>
     </div>
 
     <div class="scroll-indicator">
@@ -61,255 +66,483 @@
   <section id="stats">
     <div class="stat-item">
       <span class="stat-num" data-target="100.00">0</span>
-      <span class="stat-label">% Client Satisfaction</span>
+      <span class="stat-label" data-en="Client Satisfaction" data-fa="رضایت مشتری">% Client Satisfaction</span>
     </div>
     <div class="stat-item">
       <span class="stat-num" data-target="+20">+0</span>
-      <span class="stat-label">Projects Delivered</span>
+      <span class="stat-label" data-en="Projects Delivered" data-fa="پروژه">Projects Delivered</span>
     </div>
     <div class="stat-item">
       <span class="stat-num" data-target="120">0</span>
-      <span class="stat-label">ms Load Time</span>
+      <span class="stat-label" data-en="Load Time" data-fa="زمان لود">ms Load Time</span>
     </div>
     <div class="stat-item">
       <span class="stat-num" data-target="83">0</span>
-      <span class="stat-label">Websites Built</span>
+      <span class="stat-label" data-en="Websites Built" data-fa="وب‌سایت ساخته شده">Websites Built</span>
     </div>
   </section>
 
   <div class="h-line"></div>
 
   <!-- FEATURES -->
-  <section id="features">
-    <div class="section-tag">Core Services</div>
-    <h2 class="section-headline">Built for the<br>Real-World Performance</h2>
+<section id="features">
+  <div class="section-tag"
+    data-en="Core Services"
+    data-fa="سرویس‌های اصلی">
+    Core Services
+  </div>
 
-    <div class="features-grid">
-      <div class="feature-card">
-        <div class="feature-number">01</div>
-        <div class="feature-icon">
-          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <polygon points="24,4 44,16 44,32 24,44 4,32 4,16" stroke="#00d4ff" stroke-width="1.5" fill="none"></polygon>
-            <circle cx="24" cy="24" r="6" fill="rgba(0,212,255,0.2)" stroke="#00d4ff" stroke-width="1.5"></circle>
-            <line x1="24" y1="4" x2="24" y2="18" stroke="#00d4ff" stroke-width="0.75" opacity="0.5"></line>
-            <line x1="24" y1="30" x2="24" y2="44" stroke="#00d4ff" stroke-width="0.75" opacity="0.5"></line>
-            <line x1="44" y1="16" x2="30" y2="21" stroke="#00d4ff" stroke-width="0.75" opacity="0.5"></line>
-            <line x1="4" y1="16" x2="18" y2="21" stroke="#00d4ff" stroke-width="0.75" opacity="0.5"></line>
-          </svg>
-        </div>
-        <div class="feature-title">AURIX</div>
-        <div class="feature-desc">Core system architecture designed for stability, speed, and seamless scaling across all environments.</div>
-        <div class="feature-hover-line"></div>
+  <h2 class="section-headline"
+    data-en="Built for Real-World Performance"
+    data-fa="ساخته شده برای عملکرد واقعی">
+    Built for the<br>Real-World Performance
+  </h2>
+
+  <div class="features-grid">
+
+    <div class="feature-card">
+      <div class="feature-number">01</div>
+
+      <div class="feature-icon">
+        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <polygon points="24,4 44,16 44,32 24,44 4,32 4,16" stroke="#00d4ff" stroke-width="1.5" fill="none"></polygon>
+          <circle cx="24" cy="24" r="6" fill="rgba(0,212,255,0.2)" stroke="#00d4ff" stroke-width="1.5"></circle>
+          <line x1="24" y1="4" x2="24" y2="18" stroke="#00d4ff" stroke-width="0.75" opacity="0.5"></line>
+          <line x1="24" y1="30" x2="24" y2="44" stroke="#00d4ff" stroke-width="0.75" opacity="0.5"></line>
+          <line x1="44" y1="16" x2="30" y2="21" stroke="#00d4ff" stroke-width="0.75" opacity="0.5"></line>
+          <line x1="4" y1="16" x2="18" y2="21" stroke="#00d4ff" stroke-width="0.75" opacity="0.5"></line>
+        </svg>
       </div>
 
-      <div class="feature-card">
-        <div class="feature-number">02</div>
-        <div class="feature-icon">
-          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect x="6" y="6" width="36" height="36" rx="2" stroke="#8b5cf6" stroke-width="1.5" fill="none"></rect>
-            <rect x="12" y="12" width="10" height="10" rx="1" fill="rgba(139,92,246,0.3)" stroke="#8b5cf6" stroke-width="1"></rect>
-            <rect x="26" y="12" width="10" height="10" rx="1" fill="rgba(139,92,246,0.15)" stroke="#8b5cf6" stroke-width="1" opacity="0.6"></rect>
-            <rect x="12" y="26" width="10" height="10" rx="1" fill="rgba(139,92,246,0.15)" stroke="#8b5cf6" stroke-width="1" opacity="0.6"></rect>
-            <rect x="26" y="26" width="10" height="10" rx="1" fill="rgba(139,92,246,0.3)" stroke="#8b5cf6" stroke-width="1"></rect>
-          </svg>
-        </div>
-        <div class="feature-title">VELTRO</div>
-        <div class="feature-desc">An advanced optimization layer that enhances speed, reduces load time, and improves overall efficiency.</div>
-        <div class="feature-hover-line"></div>
+      <div class="feature-title"
+        data-en="AURIX"
+        data-fa="اوریکس">
+        AURIX
       </div>
 
-      <div class="feature-card">
-        <div class="feature-number">03</div>
-        <div class="feature-icon">
-          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="24" cy="24" r="18" stroke="#f472b6" stroke-width="1.5" fill="none" stroke-dasharray="4 3"></circle>
-            <circle cx="24" cy="24" r="10" stroke="#f472b6" stroke-width="1.5" fill="rgba(244,114,182,0.1)"></circle>
-            <circle cx="24" cy="24" r="4" fill="#f472b6"></circle>
-            <line x1="24" y1="6" x2="24" y2="14" stroke="#f472b6" stroke-width="1.5"></line>
-            <line x1="24" y1="34" x2="24" y2="42" stroke="#f472b6" stroke-width="1.5"></line>
-            <line x1="6" y1="24" x2="14" y2="24" stroke="#f472b6" stroke-width="1.5"></line>
-            <line x1="34" y1="24" x2="42" y2="24" stroke="#f472b6" stroke-width="1.5"></line>
-          </svg>
-        </div>
-        <div class="feature-title">NEXSHIELD</div>
-        <div class="feature-desc">A multi-layer security system that protects data, controls access, and ensures system integrity.</div>
-        <div class="feature-hover-line"></div>      </div>
-
-      <div class="feature-card">
-        <div class="feature-number">04</div>
-        <div class="feature-icon">
-          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M8 36 L16 20 L24 28 L32 14 L40 24" stroke="#00d4ff" stroke-width="1.5" fill="none" stroke-linejoin="round"></path>
-            <circle cx="40" cy="24" r="3" fill="#00d4ff"></circle>
-            <line x1="8" y1="40" x2="40" y2="40" stroke="rgba(0,212,255,0.3)" stroke-width="0.75"></line>
-            <line x1="8" y1="8" x2="8" y2="40" stroke="rgba(0,212,255,0.3)" stroke-width="0.75"></line>
-          </svg>
-        </div>
-        <div class="feature-title">QUANTIX</div>
-        <div class="feature-desc">A real-time processing engine designed for fast data handling and instant response execution.</div>
-        <div class="feature-hover-line"></div>
+      <div class="feature-desc"
+        data-en="Core system architecture designed for stability, speed and scalability."
+        data-fa="معماری سیستم برای پایداری، سرعت و مقیاس‌پذیری طراحی شده.">
+        Core system architecture designed for stability, speed, and seamless scaling across all environments.
       </div>
 
-      <div class="feature-card">
-        <div class="feature-number">05</div>
-        <div class="feature-icon">
-          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect x="10" y="16" width="28" height="20" rx="2" stroke="#8b5cf6" stroke-width="1.5" fill="none"></rect>
-            <path d="M18 16V12C18 10.9 18.9 10 20 10H28C29.1 10 30 10.9 30 12V16" stroke="#8b5cf6" stroke-width="1.5"></path>
-            <line x1="10" y1="22" x2="38" y2="22" stroke="#8b5cf6" stroke-width="0.75" opacity="0.5"></line>
-            <circle cx="24" cy="29" r="3" fill="rgba(139,92,246,0.4)" stroke="#8b5cf6" stroke-width="1"></circle>
-          </svg>
-        </div>
-        <div class="feature-title">VERSA</div>
-        <div class="feature-desc">Versioned release management with rollback support, safe deploy flow, and audit-ready delivery history.</div>
-        <div class="feature-hover-line"></div>
-      </div>
-
-      <div class="feature-card">
-        <div class="feature-number">06</div>
-        <div class="feature-icon">
-          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M24 8 L40 24 L24 40 L8 24 Z" stroke="#f472b6" stroke-width="1.5" fill="rgba(244,114,182,0.08)"></path>
-            <path d="M24 14 L34 24 L24 34 L14 24 Z" stroke="#f472b6" stroke-width="1" fill="rgba(244,114,182,0.12)" opacity="0.7"></path>
-            <circle cx="24" cy="24" r="4" fill="#f472b6" opacity="0.8"></circle>
-          </svg>
-        </div>
-        <div class="feature-title">ORBITA</div>
-        <div class="feature-desc">A global deployment network enabling fast, scalable, and distributed delivery across regions.</div>
-        <div class="feature-hover-line"></div>
-      </div>
+      <div class="feature-hover-line"></div>
     </div>
-  </section>
 
+    <div class="feature-card">
+      <div class="feature-number">02</div>
+
+      <div class="feature-icon">
+        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="6" y="6" width="36" height="36" rx="2" stroke="#8b5cf6" stroke-width="1.5" fill="none"></rect>
+          <rect x="12" y="12" width="10" height="10" rx="1" fill="rgba(139,92,246,0.3)" stroke="#8b5cf6" stroke-width="1"></rect>
+          <rect x="26" y="12" width="10" height="10" rx="1" fill="rgba(139,92,246,0.15)" stroke="#8b5cf6" stroke-width="1" opacity="0.6"></rect>
+          <rect x="12" y="26" width="10" height="10" rx="1" fill="rgba(139,92,246,0.15)" stroke="#8b5cf6" stroke-width="1" opacity="0.6"></rect>
+          <rect x="26" y="26" width="10" height="10" rx="1" fill="rgba(139,92,246,0.3)" stroke="#8b5cf6" stroke-width="1"></rect>
+        </svg>
+      </div>
+
+      <div class="feature-title"
+        data-en="VELTRO"
+        data-fa="ولترو">
+        VELTRO
+      </div>
+
+      <div class="feature-desc"
+        data-en="Advanced optimization layer that improves speed and efficiency."
+        data-fa="لایه بهینه‌سازی پیشرفته برای افزایش سرعت و کارایی.">
+        An advanced optimization layer that enhances speed, reduces load time, and improves overall efficiency.
+      </div>
+
+      <div class="feature-hover-line"></div>
+    </div>
+
+    <div class="feature-card">
+      <div class="feature-number">03</div>
+
+      <div class="feature-icon">
+        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="24" cy="24" r="18" stroke="#f472b6" stroke-width="1.5" fill="none" stroke-dasharray="4 3"></circle>
+          <circle cx="24" cy="24" r="10" stroke="#f472b6" stroke-width="1.5" fill="rgba(244,114,182,0.1)"></circle>
+          <circle cx="24" cy="24" r="4" fill="#f472b6"></circle>
+          <line x1="24" y1="6" x2="24" y2="14" stroke="#f472b6" stroke-width="1.5"></line>
+          <line x1="24" y1="34" x2="24" y2="42" stroke="#f472b6" stroke-width="1.5"></line>
+          <line x1="6" y1="24" x2="14" y2="24" stroke="#f472b6" stroke-width="1.5"></line>
+          <line x1="34" y1="24" x2="42" y2="24" stroke="#f472b6" stroke-width="1.5"></line>
+        </svg>
+      </div>
+
+      <div class="feature-title"
+        data-en="NEXSHIELD"
+        data-fa="نکس‌شیلد">
+        NEXSHIELD
+      </div>
+
+      <div class="feature-desc"
+        data-en="Multi-layer security system that protects data and access."
+        data-fa="سیستم امنیتی چندلایه برای حفاظت از داده‌ها و دسترسی‌ها.">
+        A multi-layer security system that protects data, controls access, and ensures system integrity.
+      </div>
+
+      <div class="feature-hover-line"></div>
+    </div>
+
+    <div class="feature-card">
+      <div class="feature-number">04</div>
+
+      <div class="feature-icon">
+        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M8 36 L16 20 L24 28 L32 14 L40 24" stroke="#00d4ff" stroke-width="1.5" fill="none" stroke-linejoin="round"></path>
+          <circle cx="40" cy="24" r="3" fill="#00d4ff"></circle>
+          <line x1="8" y1="40" x2="40" y2="40" stroke="rgba(0,212,255,0.3)" stroke-width="0.75"></line>
+          <line x1="8" y1="8" x2="8" y2="40" stroke="rgba(0,212,255,0.3)" stroke-width="0.75"></line>
+        </svg>
+      </div>
+
+      <div class="feature-title"
+        data-en="QUANTIX"
+        data-fa="کوانتیکس">
+        QUANTIX
+      </div>
+
+      <div class="feature-desc"
+        data-en="Real-time processing engine for fast data handling."
+        data-fa="موتور پردازش لحظه‌ای برای مدیریت سریع داده‌ها.">
+        A real-time processing engine designed for fast data handling and instant response execution.
+      </div>
+
+      <div class="feature-hover-line"></div>
+    </div>
+
+    <div class="feature-card">
+      <div class="feature-number">05</div>
+
+      <div class="feature-icon">
+        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="10" y="16" width="28" height="20" rx="2" stroke="#8b5cf6" stroke-width="1.5" fill="none"></rect>
+          <path d="M18 16V12C18 10.9 18.9 10 20 10H28C29.1 10 30 10.9 30 12V16" stroke="#8b5cf6" stroke-width="1.5"></path>
+          <line x1="10" y1="22" x2="38" y2="22" stroke="#8b5cf6" stroke-width="0.75" opacity="0.5"></line>
+          <circle cx="24" cy="29" r="3" fill="rgba(139,92,246,0.4)" stroke="#8b5cf6" stroke-width="1"></circle>
+        </svg>
+      </div>
+
+      <div class="feature-title"
+        data-en="VERSA"
+        data-fa="ورسا">
+        VERSA
+      </div>
+
+      <div class="feature-desc"
+        data-en="Version control and safe deployment system."
+        data-fa="سیستم مدیریت نسخه و انتشار امن.">
+        Versioned release management with rollback support, safe deploy flow, and audit-ready delivery history.
+      </div>
+
+      <div class="feature-hover-line"></div>
+    </div>
+
+    <div class="feature-card">
+      <div class="feature-number">06</div>
+
+      <div class="feature-icon">
+        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M24 8 L40 24 L24 40 L8 24 Z" stroke="#f472b6" stroke-width="1.5" fill="rgba(244,114,182,0.08)"></path>
+          <path d="M24 14 L34 24 L24 34 L14 24 Z" stroke="#f472b6" stroke-width="1" fill="rgba(244,114,182,0.12)" opacity="0.7"></path>
+          <circle cx="24" cy="24" r="4" fill="#f472b6" opacity="0.8"></circle>
+        </svg>
+      </div>
+
+      <div class="feature-title"
+        data-en="ORBITA"
+        data-fa="اوربیتا">
+        ORBITA
+      </div>
+
+      <div class="feature-desc"
+        data-en="Global deployment network for scalable delivery."
+        data-fa="شبکه جهانی برای انتشار و مقیاس‌پذیری سریع.">
+        A global deployment network enabling fast, scalable, and distributed delivery across regions.
+      </div>
+
+      <div class="feature-hover-line"></div>
+    </div>
+
+  </div>
+</section>
   <div class="h-line"></div>
 
   <!-- LOGO DRAW SECTION -->
-  <section id="logo-draw">
-    <div class="section-tag">Who I Am</div>
-    <h2 class="section-headline">
-      Iliya Atabaki<br>
-      <span class="text-accent-blue">Founder of Nexora</span>
-    </h2>
+<section id="logo-draw">
 
-    <div class="logo-svg-container" id="logo-container">
-      <div class="logo-glow" id="logo-glow"></div>
-      <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path
-          id="logo-path"
-          d="M100 10 L180 55 L180 145 L100 190 L20 145 L20 55 Z
-             M100 10 L100 190
-             M20 55 L180 145
-             M180 55 L20 145
-             M100 55 L145 80 L145 120 L100 145 L55 120 L55 80 Z"
-          stroke="url(#logo-grad)"
-          stroke-width="1.5"
-          fill="none"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        ></path>
-        <circle id="logo-path-fill" cx="100" cy="100" r="12" fill="url(#logo-grad)" opacity="0"></circle>
-        <defs>
-          <linearGradient id="logo-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stop-color="#00d4ff"></stop>
-            <stop offset="100%" stop-color="#8b5cf6"></stop>
-          </linearGradient>
-        </defs>
-      </svg>
-    </div>
-  </section>
+  <div class="section-tag"
+    data-en="Who I Am"
+    data-fa="من کی هستم">
+    Who I Am
+  </div>
 
-  <div class="h-line"></div>
+  <h2 class="section-headline">
+    <span data-en="Iliya Atabaki" data-fa="ایلیا اتابکی">
+      Iliya Atabaki
+    </span>
+    <br>
 
+    <span class="text-accent-blue"
+      data-en="Founder of Nexora"
+      data-fa="بنیان‌گذار نکسورا">
+      Founder of Nexora
+    </span>
+  </h2>
+
+  <div class="logo-svg-container" id="logo-container">
+    <div class="logo-glow" id="logo-glow"></div>
+
+    <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path
+        id="logo-path"
+        d="M100 10 L180 55 L180 145 L100 190 L20 145 L20 55 Z
+           M100 10 L100 190
+           M20 55 L180 145
+           M180 55 L20 145
+           M100 55 L145 80 L145 120 L100 145 L55 120 L55 80 Z"
+        stroke="url(#logo-grad)"
+        stroke-width="1.5"
+        fill="none"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      ></path>
+
+      <circle id="logo-path-fill" cx="100" cy="100" r="12" fill="url(#logo-grad)" opacity="0"></circle>
+
+      <defs>
+        <linearGradient id="logo-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#00d4ff"></stop>
+          <stop offset="100%" stop-color="#8b5cf6"></stop>
+        </linearGradient>
+      </defs>
+    </svg>
+
+  </div>
+
+</section>
+
+<div class="h-line"></div>
   <!-- PROCESS -->
 <section id="process">
-  <div class="section-tag">What I Know</div>
-  <h2 class="section-headline">Skills & <br> Experience Breakdown</h2>
+
+  <div class="section-tag"
+    data-en="What I Know"
+    data-fa="آنچه بلدم">
+    What I Know
+  </div>
+
+  <h2 class="section-headline"
+    data-en="Skills & Experience Breakdown"
+    data-fa="مهارت‌ها و تجربه‌ها">
+    Skills & <br> Experience Breakdown
+  </h2>
 
   <div class="process-steps">
 
     <div class="process-step">
       <div class="step-num">01</div>
+
       <div class="step-info">
-        <div class="step-title">HTML / CSS / UI Design</div>
-        <div class="step-desc">Building responsive, modern and animated user interfaces with clean structure and performance focus.</div>
+        <div class="step-title"
+          data-en="HTML / CSS / UI Design"
+          data-fa="HTML / CSS / طراحی UI">
+          HTML / CSS / UI Design
+        </div>
+
+        <div class="step-desc"
+          data-en="Building responsive, modern and animated user interfaces with clean structure and performance focus."
+          data-fa="ساخت رابط‌های کاربری ریسپانسیو، مدرن و انیمیشنی با ساختار تمیز و تمرکز روی عملکرد.">
+          Building responsive, modern and animated user interfaces with clean structure and performance focus.
+        </div>
       </div>
+
       <div class="step-visual">
         <div class="step-visual-bar" data-width="90"></div>
-        <span class="step-visual-label">Skill Level: 90%</span>
+        <span class="step-visual-label"
+          data-en="Skill Level: 90%"
+          data-fa="سطح مهارت: ۹۰٪">
+          Skill Level: 90%
+        </span>
       </div>
     </div>
 
     <div class="process-step">
       <div class="step-num">02</div>
+
       <div class="step-info">
-        <div class="step-title">JavaScript Development</div>
-        <div class="step-desc">Interactive UI, DOM manipulation, animations, API integration and dynamic web systems.</div>
+        <div class="step-title"
+          data-en="JavaScript Development"
+          data-fa="توسعه جاوااسکریپت">
+          JavaScript Development
+        </div>
+
+        <div class="step-desc"
+          data-en="Interactive UI, DOM manipulation, animations, API integration and dynamic web systems."
+          data-fa="رابط کاربری تعاملی، کار با DOM، انیمیشن‌ها، API و سیستم‌های داینامیک وب.">
+          Interactive UI, DOM manipulation, animations, API integration and dynamic web systems.
+        </div>
       </div>
+
       <div class="step-visual">
         <div class="step-visual-bar" data-width="80"></div>
-        <span class="step-visual-label">Skill Level: 80%</span>
+        <span class="step-visual-label"
+          data-en="Skill Level: 80%"
+          data-fa="سطح مهارت: ۸۰٪">
+          Skill Level: 80%
+        </span>
       </div>
     </div>
 
     <div class="process-step">
       <div class="step-num">03</div>
+
       <div class="step-info">
-        <div class="step-title">Python Development</div>
-        <div class="step-desc">Automation scripts, backend logic, data handling and basic AI / OSINT tools development.</div>
+        <div class="step-title"
+          data-en="Python Development"
+          data-fa="توسعه پایتون">
+          Python Development
+        </div>
+
+        <div class="step-desc"
+          data-en="Automation scripts, backend logic, data handling and basic AI / OSINT tools development."
+          data-fa="اسکریپت‌های اتوماسیون، منطق بک‌اند، مدیریت داده و ابزارهای پایه AI و OSINT.">
+          Automation scripts, backend logic, data handling and basic AI / OSINT tools development.
+        </div>
       </div>
+
       <div class="step-visual">
         <div class="step-visual-bar" data-width="30"></div>
-        <span class="step-visual-label">Skill Level: 30%</span>
+        <span class="step-visual-label"
+          data-en="Skill Level: 30%"
+          data-fa="سطح مهارت: ۳۰٪">
+          Skill Level: 30%
+        </span>
       </div>
     </div>
 
     <div class="process-step">
       <div class="step-num">04</div>
+
       <div class="step-info">
-        <div class="step-title">WordPress Development</div>
-        <div class="step-desc">Custom websites, Elementor builds, landing pages and full business website setup.</div>
+        <div class="step-title"
+          data-en="WordPress Development"
+          data-fa="توسعه وردپرس">
+          WordPress Development
+        </div>
+
+        <div class="step-desc"
+          data-en="Custom websites, Elementor builds, landing pages and full business website setup."
+          data-fa="ساخت سایت‌های سفارشی، المنتور، لندینگ پیج و راه‌اندازی کامل وب‌سایت کسب‌وکار.">
+          Custom websites, Elementor builds, landing pages and full business website setup.
+        </div>
       </div>
+
       <div class="step-visual">
         <div class="step-visual-bar" data-width="75"></div>
-        <span class="step-visual-label">Skill Level: 75%</span>
+        <span class="step-visual-label"
+          data-en="Skill Level: 75%"
+          data-fa="سطح مهارت: ۷۵٪">
+          Skill Level: 75%
+        </span>
       </div>
     </div>
-  </div>
-  <div class="process-step">
-  <div class="step-num">05</div>
-  <div class="step-info">
-    <div class="step-title">Cyber Security & OSINT</div>
-    <div class="step-desc">Basic security analysis, OSINT research, vulnerability awareness and web security fundamentals for safer systems.</div>
-  </div>
-  <div class="step-visual">
-    <div class="step-visual-bar" data-width="80"></div>
-    <span class="step-visual-label">Skill Level: 80%</span>
-  </div>
-</div>
-</section>
-  <div class="h-line"></div>
 
-  <!-- CTA FINAL -->
-  <section id="cta-final">
-    <div class="cta-bg-lines"></div>
-    <h2 class="cta-headline">
-      Ready to<br>
-      <span class="text-accent-blue">Start Your Project?</span>
-    </h2>
-    <p class="cta-sub">Let’s build a fast, modern and clean website for your business.</p>
-    <div class="cta-button-wrap">
-      <button class="btn-primary btn-primary-large" onclick="window.location.href='tel:+989117362732'">
-        Contact Me
-      </button>
+    <div class="process-step">
+      <div class="step-num">05</div>
+
+      <div class="step-info">
+        <div class="step-title"
+          data-en="Cyber Security & OSINT"
+          data-fa="امنیت سایبری و OSINT">
+          Cyber Security & OSINT
+        </div>
+
+        <div class="step-desc"
+          data-en="Basic security analysis, OSINT research, vulnerability awareness and web security fundamentals."
+          data-fa="تحلیل امنیتی پایه، تحقیقات OSINT، آگاهی از آسیب‌پذیری‌ها و اصول امنیت وب.">
+          Basic security analysis, OSINT research, vulnerability awareness and web security fundamentals for safer systems.
+        </div>
+      </div>
+
+      <div class="step-visual">
+        <div class="step-visual-bar" data-width="80"></div>
+        <span class="step-visual-label"
+          data-en="Skill Level: 80%"
+          data-fa="سطح مهارت: ۸۰٪">
+          Skill Level: 80%
+        </span>
+      </div>
     </div>
-  </section>
 
-  <footer>
-    <div class="footer-logo">NEXORA</div>
-    <div class="footer-meta">© 2026 Iliya Atabaki. All rights reserved. Built & Designed by Iliya</div>
-    <div class="footer-meta">Availability: <span class="text-accent-blue">◉ Open for Projects</span></div>
-  </footer>
+  </div>
+</section>
 
+<div class="h-line"></div>
+  <!-- CTA FINAL -->
+<section id="cta-final">
+
+  <div class="cta-bg-lines"></div>
+
+  <h2 class="cta-headline">
+    <span data-en="Ready to" data-fa="آماده‌ای برای">
+      Ready to
+    </span>
+    <br>
+
+    <span class="text-accent-blue"
+      data-en="Start Your Project?"
+      data-fa="شروع پروژه‌ات؟">
+      Start Your Project?
+    </span>
+  </h2>
+
+  <p class="cta-sub"
+    data-en="Let’s build a fast, modern and clean website for your business."
+    data-fa="بیا یه سایت سریع، مدرن و تمیز برای کسب‌وکارت بسازیم.">
+    Let’s build a fast, modern and clean website for your business.
+  </p>
+
+  <div class="cta-button-wrap">
+    <button class="btn-primary btn-primary-large"
+      onclick="window.location.href='tel:+989123456789'">
+      <span data-en="Contact Me" data-fa="تماس با من">
+        Contact Me
+      </span>
+    </button>
+  </div>
+
+</section>
+
+
+<footer>
+
+  <div class="footer-logo">
+    NEXORA
+  </div>
+
+  <div class="footer-meta"
+    data-en="© 2026 Iliya Atabaki. All rights reserved. Built & Designed by Iliya"
+    data-fa="© ۲۰۲۶ همه حقوق محفوظ است. طراحی و ساخت توسط نکسورا ">
+    © 2026 Iliya Atabaki. All rights reserved. Built & Designed by Iliya
+  </div>
+
+  <div class="footer-meta">
+    <span data-en="Availability:" data-fa="وضعیت همکاری:">
+      Availability:
+    </span>
+
+    <span class="text-accent-blue"
+      data-en="◉ Open for Projects"
+      data-fa="◉ آماده همکاری">
+      ◉ Open for Projects
+    </span>
+  </div>
+
+</footer>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
   <script src="./script.js"></script>
