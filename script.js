@@ -427,3 +427,6 @@ window.addEventListener("DOMContentLoaded", () => {
   currentLang = "en";
   applyLanguage();
 });
+document.getElementById("viewWorkBtn")?.addEventListener("click", () => {
+    window.location.href = "projects/projects.html";
+});
