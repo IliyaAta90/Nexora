@@ -1,0 +1,53 @@
+[
+  {
+    "title": {
+      "fa": "نوین نگاه",
+      "en": "Novin Negah"
+    },
+    "category": {
+      "fa": "وب‌سایت شرکتی",
+      "en": "Corporate Website"
+    },
+    "description": {
+      "fa": "طراحی و پیاده‌سازی وب‌سایت شرکتی برای معرفی خدمات تبلیغاتی، چاپی و برندینگ.",
+      "en": "A corporate website designed and developed to present advertising, printing, and branding services."
+    },
+    "image": "images/novin-negah.webp",
+    "url": "https://novin-negah.ir",
+    "tags": ["HTML", "CSS", "WordPress", "SEO"]
+  },
+  {
+    "title": {
+      "fa": "ایلیاپرس",
+      "en": "IliyaPress"
+    },
+    "category": {
+      "fa": "خدمات طراحی سایت",
+      "en": "Web Design Service"
+    },
+    "description": {
+      "fa": "صفحه معرفی خدمات طراحی سایت، وردپرس و سئو با ظاهر مدرن و حرفه‌ای.",
+      "en": "A modern service page for web design, WordPress, and SEO services."
+    },
+    "image": "images/iliyapress.webp",
+    "url": "https://iliya-p.ir",
+    "tags": ["HTML", "CSS", "JavaScript"]
+  },
+  {
+    "title": {
+      "fa": "نکسورا",
+      "en": "NEXORA"
+    },
+    "category": {
+      "fa": "نمونه‌کار شخصی",
+      "en": "Personal Portfolio"
+    },
+    "description": {
+      "fa": "وب‌سایت شخصی نئونی برای نمایش مهارت‌ها، خدمات و پروژه‌های طراحی شده.",
+      "en": "A neon personal portfolio website for showcasing skills, services, and designed projects."
+    },
+    "image": "images/nexora.webp",
+    "url": "../index.html",
+    "tags": ["HTML", "CSS", "JavaScript"]
+  }
+]
