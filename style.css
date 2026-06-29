@@ -985,3 +985,7 @@ html[lang="fa"] body,
 html[lang="fa"] * {
   font-family: "Vazirmatn", sans-serif !important;
 }
+
+.btn-ghost{
+    text-decoration: none;
+}
