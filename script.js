@@ -428,5 +428,5 @@ window.addEventListener("DOMContentLoaded", () => {
   applyLanguage();
 });
 document.getElementById("viewWorkBtn")?.addEventListener("click", () => {
-    window.location.href = "projects/projects.html";
+    window.location.href = "projects/";
 });
