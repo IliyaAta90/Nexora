@@ -1313,9 +1313,13 @@ font-size:22px;
 
 }
 
-<button class="btn-primary" data-popup="contact" type="button">
-  Start Now
-</button>
+.cursor {
+  z-index: 10001;
+}
+
+.cursor-ring {
+  z-index: 10000;
+}
 
 .contact-popup-overlay {
   padding: 24px;
