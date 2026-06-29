@@ -608,3 +608,46 @@
     });
   }
 })();
+
+window.addEventListener("load", () => {
+  const popup = document.getElementById("contactPopup");
+  const closeBtn = document.getElementById("contactClose");
+  const buttons = document.querySelectorAll("[data-popup='contact']");
+
+  console.log("popup:", popup);
+  console.log("buttons:", buttons.length);
+
+  if (!popup) {
+    alert("پاپ‌آپ پیدا نشد: id='contactPopup' توی HTML نیست یا بعد از JS ساخته شده");
+    return;
+  }
+
+  buttons.forEach((btn) => {
+    btn.addEventListener("click", (e) => {
+      e.preventDefault();
+      popup.classList.add("active");
+      document.body.style.overflow = "hidden";
+    });
+  });
+
+  if (closeBtn) {
+    closeBtn.addEventListener("click", () => {
+      popup.classList.remove("active");
+      document.body.style.overflow = "";
+    });
+  }
+
+  popup.addEventListener("click", (e) => {
+    if (e.target === popup) {
+      popup.classList.remove("active");
+      document.body.style.overflow = "";
+    }
+  });
+
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") {
+      popup.classList.remove("active");
+      document.body.style.overflow = "";
+    }
+  });
+});
