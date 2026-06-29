@@ -1312,3 +1312,48 @@ font-size:22px;
 }
 
 }
+
+<button class="btn-primary" data-popup="contact" type="button">
+  Start Now
+</button>
+
+.contact-popup-overlay {
+  padding: 24px;
+  overflow-y: auto;
+}
+
+.contact-popup {
+  width: min(620px, 100%);
+  max-height: calc(100vh - 48px);
+  overflow-y: auto;
+}
+
+.contact-popup::-webkit-scrollbar {
+  width: 6px;
+}
+
+.contact-popup::-webkit-scrollbar-thumb {
+  background: rgba(0, 212, 255, 0.35);
+  border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  .contact-popup-overlay {
+    align-items: flex-start;
+    padding: 18px;
+  }
+
+  .contact-popup {
+    margin-top: 20px;
+    padding: 28px 20px;
+    max-height: calc(100vh - 36px);
+  }
+
+  .contact-popup h2 {
+    font-size: 28px;
+  }
+
+  .contact-option {
+    padding: 14px;
+  }
+}
