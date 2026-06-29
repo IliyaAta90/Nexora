@@ -437,9 +437,7 @@ document.getElementById("viewWorkBtn")?.addEventListener("click", () => {
 const contactPopup = document.getElementById("contactPopup");
 const contactClose = document.getElementById("contactClose");
 
-const contactButtons = document.querySelectorAll(
-  ".btn-primary, .nav-cta, [data-popup='contact']"
-);
+const contactButtons = document.querySelectorAll("[data-popup='contact']");
 
 function openContactPopup() {
   if (!contactPopup) return;
@@ -476,3 +474,5 @@ document.addEventListener("keydown", (event) => {
     closeContactPopup();
   }
 });
+
+console.log(document.getElementById("contactPopup"));
