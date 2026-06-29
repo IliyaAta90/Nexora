@@ -430,3 +430,49 @@ window.addEventListener("DOMContentLoaded", () => {
 document.getElementById("viewWorkBtn")?.addEventListener("click", () => {
     window.location.href = "projects/";
 });
+/* ===============================
+   Contact Popup
+================================ */
+
+const contactPopup = document.getElementById("contactPopup");
+const contactClose = document.getElementById("contactClose");
+
+const contactButtons = document.querySelectorAll(
+  ".btn-primary, .nav-cta, [data-popup='contact']"
+);
+
+function openContactPopup() {
+  if (!contactPopup) return;
+
+  contactPopup.classList.add("active");
+  document.body.style.overflow = "hidden";
+}
+
+function closeContactPopup() {
+  if (!contactPopup) return;
+
+  contactPopup.classList.remove("active");
+  document.body.style.overflow = "";
+}
+
+contactButtons.forEach((button) => {
+  button.addEventListener("click", openContactPopup);
+});
+
+if (contactClose) {
+  contactClose.addEventListener("click", closeContactPopup);
+}
+
+if (contactPopup) {
+  contactPopup.addEventListener("click", (event) => {
+    if (event.target === contactPopup) {
+      closeContactPopup();
+    }
+  });
+}
+
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape") {
+    closeContactPopup();
+  }
+});
