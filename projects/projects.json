@@ -12,26 +12,9 @@
       "fa": "طراحی و پیاده‌سازی وب‌سایت شرکتی برای معرفی خدمات تبلیغاتی، چاپی و برندینگ.",
       "en": "A corporate website designed and developed to present advertising, printing, and branding services."
     },
-    "image": "images/novin-negah.webp",
+    "image": "data/novin.jpg",
     "url": "https://novin-negah.ir",
     "tags": ["HTML", "CSS", "WordPress", "SEO"]
-  },
-  {
-    "title": {
-      "fa": "ایلیاپرس",
-      "en": "IliyaPress"
-    },
-    "category": {
-      "fa": "خدمات طراحی سایت",
-      "en": "Web Design Service"
-    },
-    "description": {
-      "fa": "صفحه معرفی خدمات طراحی سایت، وردپرس و سئو با ظاهر مدرن و حرفه‌ای.",
-      "en": "A modern service page for web design, WordPress, and SEO services."
-    },
-    "image": "images/iliyapress.webp",
-    "url": "https://iliya-p.ir",
-    "tags": ["HTML", "CSS", "JavaScript"]
   },
   {
     "title": {
@@ -46,7 +29,7 @@
       "fa": "وب‌سایت شخصی نئونی برای نمایش مهارت‌ها، خدمات و پروژه‌های طراحی شده.",
       "en": "A neon personal portfolio website for showcasing skills, services, and designed projects."
     },
-    "image": "images/nexora.webp",
+    "image": "data/main.jpg",
     "url": "../index.html",
     "tags": ["HTML", "CSS", "JavaScript"]
   },
@@ -63,8 +46,8 @@
       "fa": "فروشگاه اینترنتی مدرن با طراحی مینیمال، نمایش محصولات، دسته‌بندی، رابط کاربری روان و تجربه خرید حرفه‌ای.",
       "en": "A modern e-commerce website with a clean interface, product showcase, category management, and a smooth shopping experience."
     },
-    "image": "images/nexora-shop.webp",
-    "url": "../nexora-shop/index.html",
+    "image": "data/shop.jpg",
+    "url": "../nexora-shop",
     "tags": ["HTML", "CSS", "JavaScript", "JSON"]
   },
   {
@@ -80,7 +63,7 @@
       "fa": "وب‌سایت فروش گل با طراحی لوکس و لطیف، معرفی دسته‌گل‌ها، باکس‌های گل و تجربه کاربری مدرن.",
       "en": "An elegant online flower shop featuring bouquets, flower boxes, and a premium shopping experience."
     },
-    "image": "images/bloomora.webp",
+    "image": "data/flower.jpg",
     "url": "../bloomora/index.html",
     "tags": ["HTML", "CSS", "JavaScript", "Responsive"]
   },
@@ -97,7 +80,7 @@
       "fa": "وب‌سایت مدرن معرفی کافه با منوی دیجیتال، معرفی نوشیدنی‌ها، فضای کافه و طراحی چشم‌نواز و واکنش‌گرا.",
       "en": "A modern cafe website featuring a digital menu, signature drinks, gallery, and a fully responsive design."
     },
-    "image": "images/nexora-cafe.webp",
+    "image": "data/coffee.jpg",
     "url": "../nexora-cafe/index.html",
     "tags": ["HTML", "CSS", "JavaScript", "UI/UX"]
   }
