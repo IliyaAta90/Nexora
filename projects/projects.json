@@ -47,7 +47,7 @@
       "en": "A modern e-commerce website with a clean interface, product showcase, category management, and a smooth shopping experience."
     },
     "image": "data/shop.jpg",
-    "url": "../Nexora-shop",
+    "url": "https://iliyaata90.github.io/Nexora-shop/",
     "tags": ["HTML", "CSS", "JavaScript", "JSON"]
   },
   {
@@ -64,7 +64,7 @@
       "en": "An elegant online flower shop featuring bouquets, flower boxes, and a premium shopping experience."
     },
     "image": "data/flower.jpg",
-    "url": "../Nexora-bloomora",
+    "url": "https://iliyaata90.github.io/Nexora-bloomora/",
     "tags": ["HTML", "CSS", "JavaScript", "Responsive"]
   },
   {
@@ -81,7 +81,7 @@
       "en": "A modern cafe website featuring a digital menu, signature drinks, gallery, and a fully responsive design."
     },
     "image": "data/coffee.jpg",
-    "url": "../Nexora-coffee",
+    "url": "https://iliyaata90.github.io/Nexora-coffee/",
     "tags": ["HTML", "CSS", "JavaScript", "UI/UX"]
   }
 ]
