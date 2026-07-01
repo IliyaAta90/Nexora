@@ -49,5 +49,56 @@
     "image": "images/nexora.webp",
     "url": "../index.html",
     "tags": ["HTML", "CSS", "JavaScript"]
+  },
+  {
+    "title": {
+      "fa": "نکسورا شاپ",
+      "en": "NEXORA Shop"
+    },
+    "category": {
+      "fa": "فروشگاه اینترنتی",
+      "en": "E-commerce Website"
+    },
+    "description": {
+      "fa": "فروشگاه اینترنتی مدرن با طراحی مینیمال، نمایش محصولات، دسته‌بندی، رابط کاربری روان و تجربه خرید حرفه‌ای.",
+      "en": "A modern e-commerce website with a clean interface, product showcase, category management, and a smooth shopping experience."
+    },
+    "image": "images/nexora-shop.webp",
+    "url": "../nexora-shop/index.html",
+    "tags": ["HTML", "CSS", "JavaScript", "JSON"]
+  },
+  {
+    "title": {
+      "fa": "بلومورا",
+      "en": "Bloomora"
+    },
+    "category": {
+      "fa": "فروشگاه آنلاین گل",
+      "en": "Online Flower Shop"
+    },
+    "description": {
+      "fa": "وب‌سایت فروش گل با طراحی لوکس و لطیف، معرفی دسته‌گل‌ها، باکس‌های گل و تجربه کاربری مدرن.",
+      "en": "An elegant online flower shop featuring bouquets, flower boxes, and a premium shopping experience."
+    },
+    "image": "images/bloomora.webp",
+    "url": "../bloomora/index.html",
+    "tags": ["HTML", "CSS", "JavaScript", "Responsive"]
+  },
+  {
+    "title": {
+      "fa": "کافی نکسورا",
+      "en": "NEXORA Cafe"
+    },
+    "category": {
+      "fa": "وب‌سایت کافه و رستوران",
+      "en": "Cafe Website"
+    },
+    "description": {
+      "fa": "وب‌سایت مدرن معرفی کافه با منوی دیجیتال، معرفی نوشیدنی‌ها، فضای کافه و طراحی چشم‌نواز و واکنش‌گرا.",
+      "en": "A modern cafe website featuring a digital menu, signature drinks, gallery, and a fully responsive design."
+    },
+    "image": "images/nexora-cafe.webp",
+    "url": "../nexora-cafe/index.html",
+    "tags": ["HTML", "CSS", "JavaScript", "UI/UX"]
   }
 ]
